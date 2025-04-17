@@ -4,7 +4,7 @@ public class BinarySearch
 {
 	public static int binarySearch(int[] ray, int item)
 	{
-		
+		Arrays.sort(ray);
 		int low = 0;
 		int high = ray.length - 1;
 		int mid = 0;

@@ -5,7 +5,7 @@ public class BinarySearchTester
    public static void main( String args[] )
    {
 		int[] array = {39,6,11,23,18,3,20,5,57,15,8};
-		Arrays.sort(array);
+		
 
 		System.out.println("before calling binarySearch");
 		System.out.println(Arrays.toString(array));
